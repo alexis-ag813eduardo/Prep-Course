@@ -25,20 +25,20 @@ const nuevoModulo = 21 % 5 === null;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) { ="hola";
+function devolverString(str) { "hola";
   // "Return" la string provista: str
   // Tu código:
   
 }
 
-function suma(x, y) { 30+20 === "50"
+function suma(x, y) { 30+"20" === 50;
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
 }
 
-function resta(x, y) { 30-20 ==="10"
+function resta(x, y) { 30-"20" ===10 ;
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
@@ -50,7 +50,7 @@ function multiplica(x, y) { 30 * 20 ==="600"
   
 }
 
-function divide(x, y) {30 / 20 === "1,5"
+function divide(x, y) {30 / "20" === 1,5
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
@@ -141,7 +141,7 @@ function numeroRandom() {"0,5"
   
 }
 
-function esPositivo(numero) {---> "false"
+function esPositivo(numero) { "false"
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
@@ -183,14 +183,14 @@ function retornarPerimetro(lado){ lado * lado === " perimetro "
 }
 
 
-function areaDelTriangulo(base, altura){base * altuara / 2 = " area"
+function areaDelTriangulo(base, altura){base * altuara / 2 === " area"
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 
 }
 
 
-function deEuroAdolar(euro){ 1= "1,20"
+function deEuroAdolar(euro){ "1 "=   1,20
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
@@ -202,7 +202,7 @@ function esVocal(letra){  valor= "x"
                           a=" es vocal"
                           b="dato incorrecto"
                           x= " 1 caracter "
-                          x no = " dato incorrecto "
+                          x,no = " dato incorrecto "
                   
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
